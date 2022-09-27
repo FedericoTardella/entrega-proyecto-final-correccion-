@@ -1,0 +1,11 @@
+@font-face {
+    font-family: RougeScript-Regular;
+    src:url(./RougeScript-Regular.ttf)
+}
+
+.lucero{
+    text-decoration: none;
+    font-family: RougeScript-Regular;
+    font-size: 70px; 
+    color: white;
+}

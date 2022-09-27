@@ -1,0 +1,174 @@
+/*Generales*/
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #915831;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    nav{
+        background-color: #462A18;
+        text-align: center;
+        /*background-image: url(/assets/imagenes/fondo\ madera.jpg);*/
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            padding-inline: 20px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .logotitulo{
+            .lucero{
+                color: white;
+            }
+            .logo{
+                max-width: 70px;
+                }
+        }
+    }
+}
+
+
+footer{
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    background-color: #462A18;
+    color: white;
+    padding: 10px;
+    .contenedorf{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        font-size: 15px;
+        .hijosf{
+            width: 500px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+h1 {
+    color: white;
+    font-family: Delinda Agatha;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: Delinda Agatha;
+}
+
+/*Inicio*/
+.bodyindex{
+    background-image: url(/assets/imagenes/fondo\ mate.jpg);
+    background-blend-mode: multiply;
+}
+.Minicio{
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    .frase{
+        font-size: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-style: italic;
+    }
+    .h2inicio{
+        font-size: 40px;
+    }
+    .Pinicio{
+        font-size: 30px;
+        padding: 5px;
+    }
+    .mate{
+        width: 100%;
+    }
+}
+
+/*Productos*/
+.Mproductos{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    .titulosproductos{
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .contenedor{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 20px;
+
+        .tarjeta{
+            width: 330px;
+            height: 440px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgb(255, 255, 255);
+            margin: 20px;
+            text-align: center;
+            border-style: solid;
+            border-color: black;
+            background-color: rgb(155, 153, 153);  
+            color: black;
+        }
+        .productot{
+            max-width: 330px;
+        }
+    }
+    
+}
+
+//Contacto
+.maincontacto{
+    .titulocontacto{
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        input{
+            width: 300px;        
+            height: 30px;
+            border-radius: 30px;
+            text-align: center;
+        }
+        label{
+            margin-top: 5px;
+            color: white;
+        }
+        .botones{
+            display: flex;
+            flex-direction: column;
+        }
+        .boton{
+            margin-top: 10px;
+            width: 100px;        
+            height: 30px;
+            border-radius: 30px;
+        }
+        
+    }
+}
